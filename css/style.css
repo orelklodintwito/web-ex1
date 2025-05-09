@@ -206,3 +206,24 @@ text-align:left;
 font-size: 14px;
 color: #fff;
 }
+
+#AboutSection {
+    max-width:  none;
+    text-align: left;
+    line-height: 1.7;
+    color: #333;
+    font-size: 18px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+#AboutSection h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #c58d8de0;
+}
+  
+#AboutSection p {
+    margin-bottom: 20px;
+}
+
