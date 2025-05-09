@@ -357,3 +357,179 @@ height: 250px;
     width: 500px;
   }
     
+
+#product-list {
+margin-left: 120px;
+padding: 40px 30px;
+max-width: 600px;
+
+}
+
+#product-list h2 {
+color: #c58d8de0;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+#product-list ul {
+list-style: none;
+padding: 0;
+}
+
+#product-list li {
+display: flex;
+align-items: center;
+margin-bottom: 16px;
+font-size: 18px;
+color: #333;
+}
+
+#product-list img {
+width: 32px;
+height: 32px;
+margin-right: 12px;
+}
+
+
+
+@media (max-width: 768px) {
+    #NavBar {
+    height: auto;
+    position: relative;
+    }
+    #NavBar .wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    height: auto;
+    
+    }
+    
+    .nav-right {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    }
+    
+    .nav-right li {
+    font-size: 20px;
+    }
+    
+    .logo-title {
+    justify-content: center;
+    }
+    
+    .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .hero-text {
+    position: static;
+    max-width: 100%;
+    text-align: center;
+    padding: 0 10px;
+    
+    }
+    
+    .hero-text h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    }
+    
+    .hero-text p {
+    font-size: 25px;
+    color: #333;
+    }
+    
+    .hero-container img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 120px;
+    }
+    
+    
+    #AboutSection {
+    font-size: 20px;
+    }
+    
+    #AboutSection h2 {
+    font-size: 30px;
+    }
+    
+    .footer-columns {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    }
+    
+    .footer-col {
+    text-align: center;
+    }
+    
+    .footer-social {
+    margin-top: 20px;
+    text-align: center;
+    }
+    
+    .footer-bottom {
+    text-align: center;
+    padding-bottom: 0;
+    }
+    
+    .card-container {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+    }
+    
+    .card {
+    aspect-ratio: unset;
+    height: auto;
+    width: 100%;
+    }
+    
+    .card-img-wrapper {
+    height: 160px; 
+    }
+    
+    .card h2 {
+    font-size: 15px;
+    }
+    
+    .card p {
+    font-size: 13px;
+    }
+    
+    .price {
+    font-size: 15px;
+    }
+    
+    .cart-icon {
+    width: 22px;
+    height: 22px;
+    }
+    
+    .image-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    }
+    
+    .side-img {
+    width: 80%; 
+    height: auto;
+    }
+    
+    .center-img {
+    width: 95%;
+    height: auto;
+    }
+    
+    
+    }
