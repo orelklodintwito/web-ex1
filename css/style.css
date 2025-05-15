@@ -359,10 +359,9 @@ height: 250px;
     
 
 #product-list {
-    padding: 40px 30px;
-    max-width: 600px;
-    margin: 0 auto 40px 40px; /* טיפה שמאלה */
-    text-align: left;
+padding: 40px 32px;
+margin: 0 auto 40px 40px; /* טיפה שמאלה */
+text-align: left;
 }
 
 #product-list h2 {
